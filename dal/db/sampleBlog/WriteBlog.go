@@ -31,5 +31,4 @@ func main() {
 	}
 	db.PutUsers(users)
 	db.PutArticles(articles)
-
 }
