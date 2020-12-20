@@ -1,0 +1,81 @@
+<div id="article_content" class="article_content clearfix">
+        <link rel="stylesheet" href="https://csdnimg.cn/release/blogv2/dist/mdeditor/css/editerView/ck_htmledit_views-b5506197d8.css">
+                <div id="content_views" class="markdown_views prism-atom-one-dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                        <path stroke-linecap="round" d="M5,0 0,2.5 5,5z" id="raphael-marker-block" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path>
+                    </svg>
+                    <blockquote> 
+ <p>【CSDN 编者按】2020 年&#xff0c;在数据库领域&#xff0c;阿里云数据库 PolarDB 入选 Gartner 领导象限&#xff1b;华为 GaussDB 革命性功能全密态的发布&#xff1b;TDEngine 多次霸榜 GitHub&#xff1b;PingCAP 完成 D 轮融资…</p> 
+ <p>回首过往这一年&#xff0c;我们的国产数据库发展如何&#xff1f;不妨通过本文来一探究竟。</p> 
+</blockquote> 
+<p><img src="https://img-blog.csdnimg.cn/20201218110636548.png?x-oss-process&#61;image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NzZG5uZXdz,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" /></p> 
+<blockquote> 
+ <p>作者 | 马超<br /> 责编 | 屠敏<br /> 头图 | CSDN 下载自东方 IC<br /> 出品 | CSDN&#xff08;ID&#xff1a;CSDNnews&#xff09;</p> 
+</blockquote> 
+<p>“六代繁华&#xff0c;春去也&#xff0c;更无消息。空怅望、山川形胜&#xff0c;已非畴昔。王谢堂前双燕子&#xff0c;乌衣巷口曾相识。” ——元词作家萨都刺《满江红·六代繁华》</p> 
+<p>说起国产数据库的开山始祖&#xff0c;非人民大学的萨师煊教授莫属&#xff0c;而萨师煊正是元代文豪萨都刺的后人&#xff0c;萨师煊与其弟子王珊合著数据库系统概论&#xff0c;直到现在依旧是目前我国数据库领域的经典教材。</p> 
+<p><img src="https://img-blog.csdnimg.cn/20201218110649211.png?x-oss-process&#61;image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NzZG5uZXdz,size_16,color_FFFFFF,t_70#pic_center" alt="" /></p> 
+<p>早在 1978 年&#xff0c;萨师煊教授就开始为中国人民大学的同学们普及数据库的知识。而彼时刚刚恢复高考不久&#xff0c;数据库这个概念还属于非常新潮的名词&#xff0c;不过正是在萨老师的带领与指引下&#xff0c;国产数据库 40 年来由默默无闻到真正的爆发&#xff1b;从单节点到蚂蚁分布式数据库速度之王 OceanBase&#xff1b;从单一功能的 TP、AP 库到混合式 HTAP 数据库天云的 Hubble&#xff1b;从数据仓库、数据湖分立到仓湖一体的 MaxCompute&#xff1b;从 SQL、NoSQL 再到 NewSQL 的 TiDB&#xff1b;从传统数据库到专业的物联网时序数据库 TDEngine&#xff1b;更遑论刚刚入选 Gartner 领导象限的最新一代阿里云数据库 PolarDB。</p> 
+<p>2010 年 7 月 11 日萨师煊教授在北京与世长辞&#xff0c;而彼时像 PolarDB、TiDB、TDEngine 这些国产数据库的典范&#xff0c;根本都还没有出生。须臾之间&#xff0c;可谓是国产数据库的丰收年之 2020 已然进入了倒计时&#xff0c;从蚂蚁的 OceanBase 再破 TPC 速度记录&#xff0c;到阿里云 PorlarDB 首进 Gartner 数据库领域的领导者象限&#xff1b;再到华为 GaussDB 革命性功能全密态的发布&#xff0c;国产数据库可谓是精彩纷呈。而今时今日&#xff0c;读到这阕六代繁华&#xff0c;回首过往&#xff0c;实在令人感慨万千&#xff0c;在这里&#xff0c;谨以此文向数据库前辈们致敬&#xff0c;也希望能为正走在数据库道路上的从业者带来一些思考&#xff01;</p> 
+<h2><a id="_25"></a>缘起——国际巨头的傲慢与偏见</h2> 
+<p>数据库的起源可以追溯到上世纪 60 年代。当时 CPU 刚进入集成电路时代&#xff0c;计算机算力、内存都较之前的晶体管时代有了大幅提升&#xff0c;不少企业也开始使用计算机进行数据管理。不过当时的计算机系统缺乏有效范式来描述复杂的数据关系&#xff0c;因此当时库管系统还一直处于非常简陋的雏形状态。</p> 
+<p>直到 1970 年&#xff0c;关系数据库之父、IBM 研究员 E.F.Codd 在《Communications of ACM》杂志上发表了一篇名为“A Relational Modelof Data for Large Shared Data Banks”的论文&#xff0c;这也成为了数据库历史上的奠基之作。后来 A C M 在 1 9 8 3 年把这篇论文列为创刊 25 年中最具里程碑意义的 25 篇论文之一&#xff0c;因为在这篇论文中首次提出了关系模型的概念。</p> 
+<blockquote> 
+ <p>关系本是数学中的一个基本概念&#xff0c;由集合中的任意元素所组成的若干有序偶对表示&#xff0c;用以反映客观事物间的一定关系。像数字之间的大小关系、人之间的亲属关系、商品流通中的购销关系等等。用关系的概念来建立数据模型&#xff0c;用以描述、设计与操纵数据库&#xff0c;E.F.Codd 是第一人。</p> 
+</blockquote> 
+<p>不过虽然关系型数据库的理论在 1970 年就问世了&#xff0c;但是市场上却迟迟不见关系型数据库的商用产品。这其中最主要的原因是 IBM 虽然率先提出关系数据库理论&#xff0c;但当时蓝色巨人的反应实在太迟钝了&#xff0c;他们在 1973 年才启动 System R 项目来研究关系型数据库的实际可行性&#xff0c;不过也受限于当时 IMS 层次型数据库火爆的销售情况&#xff0c;因此 IBM 对于 System R 项目的关系数据库不怎么感兴趣。</p> 
+<p>1977 年 6 月&#xff0c;Larry Ellison 和他的甲骨文抓住了关系型数据库这个巨大的商业机会&#xff0c;并通过引入 SQL 语言、原子事务等关键特性&#xff0c;在数据库领域迅速站稳了脚跟&#xff0c;并在 1989 年正式进入中国。</p> 
+<p>彼时&#xff0c;中国数据库市场上像 FoxBASE、dBase 之类的产品都远远没有 Oracle 那样突出的实力&#xff0c;因此&#xff0c;甲骨文入华后不到五年&#xff0c;恰逢我国推进“九七工程”&#xff08;1997 年&#xff0c;在全国电信企业全面实现市话业务计算机综合管理&#xff09;&#xff0c;由于电话资费大幅下降&#xff0c;普通家庭都安装得起电话了&#xff0c;这也使甲骨文的 Oracle 数据库在中国的销售情况迎来爆发式增长&#xff0c;不过单向的技术依赖&#xff0c;让我们处于被动的位置。</p> 
+<h2><a id="_Oracle__OceanBase_43"></a>一举打破 Oracle 垄断的支付宝核心 OceanBase</h2> 
+<p>随着移动互联网大潮来临&#xff0c;我国 IT 巨头应用方面的创新几乎做到了天下第一&#xff0c;无论是 O2O、共享单车、移动支付领域是如此类&#xff0c;我们做的确实好&#xff0c;但是各大科技企业的核心数据库 C 位却一直被 Oracle 与 MySQL 等国外产品牢牢把持着。</p> 
+<p>不过国外厂商的最强神话终于在 2019 年的国庆节被成功打破。蚂蚁的 Oceanbase 数据库成功登顶世界上最权威的数据库评测机构 TPC&#xff08;国际事务处理性能委员会&#xff09;排行榜榜首。</p> 
+<p>在今年 5 月&#xff0c;OceanBase 再次将自己之前创造的记录提升了近 11 倍&#xff0c;将甲骨文、IBM 等一众老牌数据库巨头甩在身后&#xff0c;正式宣告国产数据库落后于国际先进水平的时代已成过往云烟&#xff0c;自研数据库产品自此站起来了。</p> 
+<p><img src="https://img-blog.csdnimg.cn/20201218110754637.png?x-oss-process&#61;image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NzZG5uZXdz,size_16,color_FFFFFF,t_70#pic_center" alt="" /></p> 
+<p>不过回顾过往&#xff0c;彼时 OceanBase 的诞生纯属意外。OceanBase 的创始人阳振坤绝对是天才中的天才&#xff0c;在 1984 年考入北京大学数学系&#xff0c;3 年修完本科&#xff0c;不到 2 年硕士毕业。师从王选院士并获得博士学位后&#xff0c;32 岁的阳振坤就成为了北大首批长江学者奖励计划的特聘教授之一。如果继续沿着这条路走下去&#xff0c;相信阳振坤会成为萨教授那样的学术泰斗&#xff0c;不过象牙塔的生活对于阳老师来说还是太乏味了&#xff0c;受到了导师王选院士的影响&#xff0c;阳老师立志要做出一款能够名垂青史的作品。</p> 
+<p>2010 年&#xff0c;45 岁的阳老师加盟阿里&#xff0c;组建了一支自研数据库的团队。</p> 
+<p>2012 年&#xff0c;时任蚂蚁金服 CTO 的程立决定将支付宝 1% 的交易库存数据在 OceanBase 上进行试运行&#xff0c;而这一试不要紧&#xff0c;OceanBase 不负众望&#xff0c;超额完成任务成功运行了 10% 的数据&#xff0c;这也让 OceanBase 在阿里内部一战成名。</p> 
+<h2><a id="_HTAP_Hubble__63"></a>混合型 HTAP——天云 Hubble 数据库</h2> 
+<p>在传统关系型 TP 数据库的范式中&#xff0c;数据类似于随时会被加工改造的零件&#xff0c;而数据库则是零件的加工厂。举例说明&#xff0c;使用 ATM 取款时&#xff0c;取款人的账户余额和 ATM 的钞箱余额都是在数据库的加工下随时会变化的零件&#xff0c;因此 TP 数据库一般用于联机交易&#xff0c;关键是响应速度要快。而在 AP 数据仓库&#xff0c;则把数据看做是已经被加工好的成形货物&#xff0c;没有实时修改的需求&#xff0c;但是要进行大量的关联计算以挖掘数据价值&#xff0c;因此 AP 数据仓库大多被用于客户画像、营销策分析。</p> 
+<p>而 TP 与 AP 相对独立发展的趋势&#xff0c;随着实际业务的需要而发生改变&#xff0c;例如银行实时风控体系、电商实时推荐营销系统等都是需要综合 TP 与 AP 特性的场景&#xff0c;因此 HTAP 的概念在 2014 年被 Gartner 正式提出。</p> 
+<p>HTAP&#xff08;HybridTransactional/Analytical Processing&#xff09;是在保留原有在线交易功能的同时&#xff0c;强调了数据库原生计算分析的能力。支持混合负载的数据库能够避免在传统架构中&#xff0c;在线与离线数据库之间大量的数据交互&#xff0c;同时也能够针对最新的业务数据进行实时统计分析。</p> 
+<p>天云数据的 Hubble 就是一款整合了 TP 与 AP 特性的混合式 HTAP 数据库。值得一提的是&#xff0c;Hubble 作为原创国产数据库获得了全国首届信创产业生态创新大赛中的一等奖。</p> 
+<p><img src="https://img-blog.csdnimg.cn/20201218110834389.png?x-oss-process&#61;image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NzZG5uZXdz,size_16,color_FFFFFF,t_70#pic_center" alt="图片" /></p> 
+<p>在同一数据库实例下&#xff0c;同时支撑高并发低延迟的 OLTP 事务和海量密集计算的 OLAP 分析作业&#xff0c;这不是一个简单的任务&#xff0c;而 Hubble 的方案是引入损失函数动态评价 SQL 逻辑计划的执行成本、CBO 代价优化解析、Sharding 切片线程级别物理资源匹配不同计算负载、TP 和 AP 双引擎调度执行、随机和序列化 IO 对存储的访问、依靠数据副本机制同时支持 KV 键值存储和列存存储交出了完美的答案。这意味着一张表可以同时支持行存和列存&#xff0c;真正的融合了存储结构&#xff0c;避免了在交易和分析数据库间每夜 ETL 数据搬家的繁琐运维工作和数据冗余。</p> 
+<p>天云 Hubble 数据库借助优化便捷 SQL 服务替代 ES&#43;HBase 方案&#xff0c;节省昂贵 Hadoop 开发成本&#xff1b;以高并发实时流升级&#xff0c;完成了 Flink 不能处理更多事实表的金融反欺诈和复杂权益服务; 多表关联 AP 计算方面&#xff0c;Hubble 的性能是 Impala 的 231%&#xff0c;在开放的大数据生态中&#xff0c;Hubble 完全可以作为计算组件与开源组件协同工作&#xff0c;嵌入并服务主流数据中台环境。</p> 
+<h2><a id="NewSQL_TiDB_83"></a>NewSQL 的典范——TiDB</h2> 
+<p>2005 年&#xff0c;谷歌首次提出了大数据的概念。对于大数据&#xff08;Big Data&#xff09;&#xff0c;Gartner 给出了这样的定义&#xff1a;</p> 
+<blockquote> 
+ <p>“大数据”是需要新处理模式才能具有更强的决策力、洞察发现力和流程优化能力来适应海量、高增长率和多样化的信息资产。</p> 
+</blockquote> 
+<p>也就是说大数据是指传统的 SQL 数据库无法处理的大量数据&#xff0c;这也就是我们目前常说的 NoSQL 型数据库&#xff0c;这是一种基于 Key-Value 寻址的数据库&#xff0c;这种数据库专门为海量数据存储服务&#xff0c;不过 NoSQL 要求数据之间的关联计算不能太多&#xff0c;比如字节、快手这样的视频社交 APP&#xff0c;数据虽然是天量级的&#xff0c;但是用户每条动态之间所需要的关联计算不多&#xff0c;这样的场景下使用 NoSQL 数据库就比较合适了。</p> 
+<p>而我们前文提到的 TP、AP 数据库&#xff0c;都要进行数据之间的关联计算&#xff0c;比如电商平台上客户的一笔交易既要更新商家的库存又要更新买家的帐户余额&#xff0c;或者基于用户画像时要将客户的各项理财变动情况进行整体建模计算&#xff0c;这种关联计算的场景就是 SQL 数据库的天下了。</p> 
+<p>原本 SQL 与 NoSQL 的应用场景两不重叠&#xff0c;井水不犯河水。不过&#xff0c;从最新的如直播带货需求来看&#xff0c;要求数据库既提供海量数据存储服务又提供高性能关联计算服务&#xff0c;这就是 NewSQL 的领域。</p> 
+<p>而打通 NoSQL 与 SQL 任督二脉&#xff0c;打造 NewSQL 数据库的明星产品中典范当属 PingCAP 的 TiDB 了。PingCAP 的联合创始人黄东旭出身于微软&#xff0c;不过黄东旭在程序员中绝对堪称异类&#xff0c;他不止是位编程高手&#xff0c;绘画和摇滚水平之高甚至还远在代码能力之上&#xff0c;是 IT 业内闻名的文艺青年&#xff0c;其创建的 TiDB&#xff08;https://github.com/pingcap/tidb&#xff09;数据库代码优雅&#xff0c;结构清晰&#xff0c;颇有艺术气息&#xff0c;用他的话来说 TiDB 的目标是尝试让用户像使用和操作 Oracle、MySQL 传统数据库那样顺手&#xff0c;与此同时&#xff0c;还能拥有弹性伸缩的高扩展、高可用性架构。</p> 
+<p>PingCAP 今年有两个大动作&#xff0c;一是在数据库顶会 VLDB 上发表论文《TiDB: A Raftbased HTAP Database》&#xff1b;二是继续将云原生进行到底&#xff0c;其把 TiDB 与和 Kubernetes 紧密结合&#xff0c;使得 TiDB 用户可以快速对集群进行扩缩容&#xff0c;滚动升级&#xff0c;这也反应了 PingCAP 在技术方面有非常深入的分析和思考。TiDB 的设计架构定位就是坚定地朝着云原生 NewSQL 的方向发展。这也是 PingCAP 站上风口&#xff0c;在 D 轮融资 2.7 亿美元的主要原因。</p> 
+<p><img src="https://img-blog.csdnimg.cn/20201218110908820.png?x-oss-process&#61;image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NzZG5uZXdz,size_16,color_FFFFFF,t_70#pic_center" alt="图片" /></p> 
+<h2><a id="GoldenDB_105"></a>金融级核心——GoldenDB</h2> 
+<p>笔者作为一名长期从事金融科技的程序员&#xff0c;对于数据库技术对外依赖感触是相当深刻的&#xff0c;因为我国银行业的绝对核心——支付系统&#xff08;CNAPS&#xff09;&#xff0c;直到 2013 年底&#xff0c;我们才用自研二代支付系统将国外方案取代。</p> 
+<p><img src="https://img-blog.csdnimg.cn/20201218110932655.png#pic_center" alt="" /></p> 
+<p>一直以来&#xff0c;一致性问题是金融级数据库的重要讨论话题。分布式数据库的语境下一致性就是指各个数据库分片的数据是否一致&#xff0c;何时一致。如果更新过的数据能被后续的访问都能看到&#xff0c;这是强一致性&#xff1b;如果能容忍后续的部分或者全部访问不到&#xff0c;则是弱一致性&#xff1b;如果经过一段时间后要求能访问到更新后的数据&#xff0c;则是最终一致性。金融级的数据库必须要保证强一致性&#xff0c;也就是只要数据更新&#xff0c;就必须被后续的访问所看到。</p> 
+<p>在金融数据库方面&#xff0c;中信银行与中兴通讯联合研发的 GoldenDB 在今年 5 月份成功上线。GoldenDB 成功取代了在中信银行核心系统服役了几十年的 IBM AS400 据库。为解决一致性问题&#xff0c;中信银行的数据库专家们创造性的提出在 GoldenDB 数据库引入全局事务协调器 GTM&#xff0c;实现基于中间件的强一致性事务控制&#xff0c;完成分布式事务的全生命周期管理。保证异常场景下的数据一致性&#xff0c;解决分布式数据库可能的脏读问题&#xff0c;在数据备份/恢复过程中&#xff0c;保证各全局事务组的操作统一执行或回滚。</p> 
+<p>分布式事务中最重要的是原子性和隔离性。所谓原子性就是指事务像原子一样不可分割&#xff0c;比如用户在支付宝上还信用卡&#xff0c;那么支付宝的余额和信用卡的还款记录就需要同时成功或者失败&#xff0c;不能出现一边成功而另一边失败的情况&#xff0c;一般来讲原子性可通过已提交事务的回滚来实现。</p> 
+<p>真正的难点在于隔离性&#xff0c;隔离性主要是处理读写冲突和写写冲突。分布式事务提交时可能出现部分节点成功&#xff0c;而另外一部分失败的情况&#xff0c;此时中信银行的数据库天团又提出在这种情况发生时&#xff0c;将已经成功提交的节点上进行回滚。根据全局事务 GTID 在 Binlog 中查找已提交事务信息&#xff0c;生成反向 SQL 语句并执行以实现数据回滚。通过以上的机制&#xff0c;就保证分布式数据库可以用于银行的动帐类业务&#xff0c;防止错账的发生。最终&#xff0c;银行核心系统完全实现了分布式数据库的分布式迁移&#xff0c;并随之完成国产化替代。</p> 
+<h2><a id="PolarDB_124"></a>传统数据库的终结者——PolarDB</h2> 
+<p>2010 年前后&#xff0c;中国的互联网企业普遍迎来了一波流量爆发。其中&#xff0c;继 2003 年推出支付宝以后&#xff0c;淘宝在 2005 年到 2012 年的交易迅速增长&#xff0c;交易额从 80 亿元、200 亿元到 1000 亿&#xff0c;直到破万亿。不过这种爆炸式增长&#xff0c;也成为了阿里人甜蜜的负担&#xff0c;因为阿里电联用户的增长速度已经渐渐超出系统处理能力的提升速度&#xff0c;而原有一直沿用的 IOE&#xff08;IBM 的小型机、Oracle 的数据库和 EMC 的存储&#xff09;中心化系统与这种高用户并发的场景几乎格格不入&#xff0c;且暂不论达到如此性能的 IOE 系统成本会有多惊人&#xff0c;问题的关键在于即使是当时最强大的科技公司&#xff0c;也没有经历过上亿用户同时在线的业务场景&#xff0c;使用国外的产品方案有如南辕北辙&#xff0c;无法真正解决问题。</p> 
+<p>正因此&#xff0c;王坚院士率先提出去 IOE 的目标&#xff0c;通过打造阿里自己的技术来解决用户爆发工资长的问题。</p> 
+<p>在 IOE 架构的系统中提升算力的思路是让服务器越来越强&#xff0c;云计算的分布式思路是只需要增加服务器节点的数量&#xff0c;就能处理更多的并发服务请求&#xff0c;而分布式系统的业务连续性&#xff0c;并不是靠高可用性来保证&#xff0c;而是靠整个服务体系的容错能力造就的。在不断探索的过程中&#xff0c;我们也诞生了新的分布式架构&#xff0c;通过发挥云计算的威力&#xff0c;使得看似普通的虚拟机集群&#xff0c;能够碾压一体机&#xff0c;能够为亿万用户同时提供优质的服务。</p> 
+<p>欲戴皇冠&#xff0c;必承其重&#xff0c;很多公司都会要管理远超自身运维能力的大规模数据库集群&#xff0c;DBA 团队维护对于很多企业尤其是初创企业来说成本不低&#xff0c;因此DBaaS(Database as a Service)逐渐兴起。用王坚院士的话来说&#xff0c;「未来使用数据库服务就像使用自来水和电一样简单」&#xff0c;业界一般认为将传统业务上云成本可以降低一半&#xff0c;而将数据库业务上云成本可以降低三分之二&#xff0c;因此很多研究机构都认为云数据库才代表着数据库的未来走向&#xff0c;比如 Gartner 就预计到 2023 年全球 75% 的数据库都会跑在云上&#xff0c;可以说云数据库未来很可能会终结掉传统数据库的存在&#xff0c;因此谁能在云数据库方面依靠&#xff0c;谁就可以在云计算与数据库两个方面都取得优势。</p> 
+<p>根据 Gartner 上周发布的 2020 年度全球数据库魔力象限评估结果&#xff0c;阿里云凭借 PolarDB 的强大性能首次挺进全球云数据库供应商的第一阵营&#xff0c;进入领导者&#xff08;LEADERS&#xff09;象限&#xff0c;而腾讯和华为也都入选了特定领域者象限&#xff0c;这是有史以来中国数据库首次有三家厂商同时入选 Garner 的魔力象限。</p> 
+<p>Gartner 在报告中指出“阿里云拥有丰富的数据库种类覆盖度和完善的产品布局&#xff0c;为用户提供了多种关系型和非关系型数据库产品&#xff0c;还提供了混合云环境部署&#xff0c;同时集成了备份、数据迁移与同步等能力。”这样的评价也充分体现了阿里云 PolarDB 的不俗实力&#xff0c;同时也预示着像阿里云、华为这样的中国云厂商未来不可限量。</p> 
+<p>PolarDB 的创始人李飞飞与阳振坤一样同样是少年天才&#xff0c;在初中毕业后&#xff0c;李飞飞直接进入了国家教委理科实验班&#xff0c;并被保送进入清华学习。博士毕业后他在犹他大学计算机系任教&#xff0c;从助理教授一路做到正教授&#xff0c; 后来在时任阿里集团 CTO 行癫的支持下&#xff0c;李飞飞加入阿里创立了 PolarDB。</p> 
+<p><img src="https://img-blog.csdnimg.cn/2020121811101390.png?x-oss-process&#61;image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NzZG5uZXdz,size_16,color_FFFFFF,t_70#pic_center" alt="图片" /></p> 
+<center>
+ 图片来源&#xff1a;阿里云技术公众号&#xff0c;已获作者授权
+</center> 
+<p>PorlarDB 除了在索引结构、锁机制等传统数据库组件进行优化以外&#xff0c;还特别针对云服务特有的全球跨域数据同步与容灾需求&#xff0c;进行了重点设计&#xff0c;我们知道很多云服务客户的业务遍及世界各个大洲&#xff0c;因此对于云数据库的跨域数据同步也会有非常高的要求。PolarDB 全球数据库&#xff08;PolarDB Global Database Network&#xff0c;PolarDB-GDN&#xff09;采用了数据库物理日志异步复制的方案。PolarDB-GDN 通过高并发流水线技术将同步速度提升 7 倍&#xff0c;将数据跨大洲同步延迟控制在 2 秒内。全局读写分离技术结合多级别的一致性能力&#xff0c;让业务不用做任何的改造的前提下降低整体的访问延迟&#xff0c;全面满足了云用户的需求。</p> 
+<h2><a id="_151"></a>最后</h2> 
+<p>今年是国产数据库的丰收年&#xff0c;除了上述数据库外&#xff0c;国产时序数据库 TDengine 背后的涛思数据在 2020 年 4 月完成 A 轮 2000 万美元融资&#xff0c;8 月将集群版开源&#xff0c;连续 6 天在 GitHub 全球趋势排行榜上位居第一&#xff1b;OceanBase 在工行的理财核心系统得到应用与验证&#xff1b;PolarDB-X 应用于中国邮政核心系统中&#xff0c;帮助邮政成功渡过 1 亿件的交易峰值&#xff1b;中国联通基于 PolarDB-X 等技术重构了其核心 IT 架构&#xff0c;实现对 3.6 亿用户的无缝“广覆盖”&#xff0c;成为全球最大的云上 BSS 系统。相信国产数据库的未来可期&#xff0c;也愿今日国产数据库之世如众人所愿&#xff01;</p>
+                </div>
+                <link href="https://csdnimg.cn/release/blogv2/dist/mdeditor/css/editerView/markdown_views-d7a94ec6ab.css" rel="stylesheet">
+                <link href="https://csdnimg.cn/release/blogv2/dist/mdeditor/css/style-ba784fbaf8.css" rel="stylesheet">
+        </div>
